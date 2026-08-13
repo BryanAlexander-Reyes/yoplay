@@ -210,7 +210,7 @@ app-root {
 }
 
 .btn-aceptar button:hover {
-    background-color: rgba(37, 99, 235, 0.8);
+    background-color: rgb(252, 253, 255);
     transform: scale(1.03);
 }
 
