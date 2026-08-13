@@ -53,6 +53,7 @@
     align-items: center;
     justify-content: flex-end;
     flex-shrink: 0;
+    padding-right: 15px;
 }
 
 .user svg {
