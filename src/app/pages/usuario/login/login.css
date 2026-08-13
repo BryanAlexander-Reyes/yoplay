@@ -63,6 +63,8 @@
 
 .welcome {
   width: 50%;
+  background: #005eff98;
+  border-radius: 0 15% 15% 0  ;
   display: flex;
   justify-content: center;
   align-items: center;
