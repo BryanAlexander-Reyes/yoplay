@@ -72,7 +72,7 @@
 
     color: white;
 
-    font-size: 28px;
+    font-size: 37px;
 
     font-weight: bold;
 
@@ -97,7 +97,7 @@
 
     color: white;
 
-    font-size: 13px;
+    font-size: 19px;
 
     text-align: center;
 }
@@ -610,13 +610,47 @@
 }
 
 
+
 .integrantes > button:last-child:hover {
     background: #38b0ff;
 
     transform: translateY(-2px);
 }
 
+.miembros > button {
+    display: block;
 
+    width: 100px;
+    height: 24px;
+
+    margin: 2px 0 8px auto;
+
+    padding: 0;
+
+    border: none;
+    border-radius: 5px;
+
+    background: #e53935;
+
+    color: white;
+
+    font-size: 9px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.miembros > button:hover {
+    background: #ff5252;
+
+    transform: scale(1.03);
+}
+
+.miembros > button:active {
+    transform: scale(0.97);
+}
 /* =========================================
    RESPONSIVE
    ========================================= */

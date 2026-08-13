@@ -29,4 +29,7 @@ export class RegistroEquipos {
       numero: ''
     });
   }
+  quitarMiembris(index: number):void{
+    this.miembros.splice(index, );
+  }
 }
