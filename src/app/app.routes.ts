@@ -18,9 +18,13 @@ export const routes: Routes = [
             pathMatch: 'full',
         },
         {
+            path: 'main',
+            component: Presentation
+        },
+        {
             path: 'home',
             component: Home
-        },
+        }
     ]
     },
     {
@@ -31,11 +35,10 @@ export const routes: Routes = [
         path: 'tyc',
         component: Tyc
     },
-
-  {
-    path: 'login',
-    component: LoginComponent
-  }
+    {
+        path: 'login',
+        component: LoginComponent
+    }
 
 
 ];
