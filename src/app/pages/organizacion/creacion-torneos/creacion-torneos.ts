@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+
+
 interface Torneo {
   Lugar:string;
   premiacion:string;
