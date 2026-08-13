@@ -26,7 +26,7 @@ export class CreacionTorneos {
       console.log(this.contador)
     }
     restarcontador():void{
-      if(this.contador<0){
+      if(this.contador>0){
       this.contador=this.contador-1
       console.log(this.contador)
       }
