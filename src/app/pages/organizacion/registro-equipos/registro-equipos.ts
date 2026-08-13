@@ -30,6 +30,6 @@ export class RegistroEquipos {
     });
   }
   quitarMiembris(index: number):void{
-    this.miembros.splice(index, );
+    this.miembros.splice(index,1);
   }
 }
