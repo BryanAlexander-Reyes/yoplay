@@ -1,15 +1,15 @@
 <div class="layout-container">
     <main class="layout-main">
-        <aside class="layout-sidebar">
+        <aside class="layout-header">
             <!-- Carga de header a forma de sidebar, a correspondencia del modelo prediseñado. -->
-            <app-sidebar></app-sidebar>
+            <app-header></app-header>
         </aside>
         <div class="card-tyc">
-            <section class="layout-content">
+            <section class="content">
                 <!-- Contenido relacionado. Términos y Condiciones de uso de la plataforma. -->
                 <h1> Términos y condiciones de la plataforma. </h1>
-                <p> Actualización: <strong> 23 de Febrero de 2026. </strong> </p>
-                <h2> Bienvenido (a). </h2>
+                <p> Última actualización de los términos y condiciones: <strong> 12 de Agosto de 2026. </strong> </p>
+                <h2> Bienvenido(a). </h2>
                 <p> Nos apasiona el deporte, y creemos en el talento, la competencia sana y la comunidad. Es, para
                     nosotros, un gusto tenerte en nuestra plataforma, y que formes parte de esta experiencia deportiva
                     creada para competir, disfrutar y crecer juntos. Aquí el deporte no solo se juega, se vive. Gracias
@@ -72,7 +72,7 @@
                     <li> Comunicaciones relacionadas con la plataforma. </li>
                     <li> Fines administrativos y estadísticos. </li>
                 </ul>
-                <p> El usuario podrá ejercer sus derechos de acceso, correción, o eliminación mediante el uso de la herramienta <strong><u> Eliminar cuenta. </u></strong> Si la cuenta es propia de un equipo o institución deportiva, el proceso se realizará mediante una solicitud al correo <u> ayuda.equipo@yoplay.com.co</u>. </p>
+                <p> El usuario podrá ejercer sus derechos de acceso, correción, o eliminación mediante el uso de la herramienta <strong class="strong-dlt"><u>Eliminar cuenta.</u></strong> Si la cuenta es propia de un equipo o institución deportiva, el proceso se realizará mediante una solicitud, al correo<strong><u> ayuda.equipo@yoplay.com.co</u>.</strong> </p>
                 <h2> 8. Conducta del usuario. </h2>
                 <p> Está estrictamente prohibido: </p>
                 <ul>
@@ -89,7 +89,10 @@
                 <h2> 11. Legislación Aplicable. </h2>
                 <p> Estos Términos se rigen por medio de las leyes de la República de Colombia. </p>
                 <p> Cualquier controversia legal será resuelta ante los jueces competentes del territorio Colombiano. </p>
-                <button> Acepto </button>
+                <div class="btn-aceptar">
+                    <button type="submit"> Acepto <!-- {{ === true?'Acepto':'Aceptado'}} --> </button>
+                    <div class="btn-behind"></div>
+                </div>
             </section>
         </div>
     </main>

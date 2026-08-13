@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { Sidebar } from '../../layout/sidebar/sidebar';
 import { Footer } from '../../layout/footer/footer';
+import { Header } from "../../layout/header/header";
 
 @Component({
   selector: 'app-tyc',
-  imports: [Sidebar, Footer],
+  imports: [Footer, Header],
   templateUrl: './tyc.html',
   styleUrl: './tyc.css',
 })
