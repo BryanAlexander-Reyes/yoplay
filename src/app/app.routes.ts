@@ -5,6 +5,7 @@ import { Home } from './pages/home/home';
 import { Tyc } from './pages/tyc/tyc';
 import { Layout } from './layout/layout/layout';
 import { authGuard } from './guards/auth-guard';
+import { LoginComponent } from './pages/usuario/login/login';
 
 export const routes: Routes = [
     {
@@ -29,5 +30,12 @@ export const routes: Routes = [
     {
         path: 'tyc',
         component: Tyc
-    }
+    },
+
+  {
+    path: 'login',
+    component: LoginComponent
+  }
+
+
 ];
