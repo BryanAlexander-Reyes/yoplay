@@ -1,11 +1,6 @@
+
+
 import { Routes } from '@angular/router';
-import { LoginComponent } from './pages/usuario/login/login';
-import { RegisterComponent } from './pages/usuario/register/register';
-import { ValidadorComponente } from './pages/validador-componente/validador-componente';
-import { SpanComponent } from './pages/spancomponent/spancomponent';
-
-
-
 // Importación de componentes y de Layout para la página.
 import { Presentation } from './pages/presentation/presentation';
 import { Home } from './pages/home/home';
@@ -15,7 +10,22 @@ import { authGuard } from './guards/auth-guard';
 // importaciones de Brayan Reyes
 // importaciones de Cristian Barrera
 import { CreacionTorneos } from './pages/organizacion/creacion-torneos/creacion-torneos';
+import { RegistroEquipos } from './pages/organizacion/registro-equipos/registro-equipos';
 
+export const routes: Routes= [
+{
+  path: '',
+  redirectTo: 'Registro',
+  pathMatch: 'full'
+},
+{
+  path: 'torneo',
+  component: CreacionTorneos
+},
+{
+  path:'Registro',
+  component: RegistroEquipos
+}
 export const routes: Routes = [
     {
         path: '',
