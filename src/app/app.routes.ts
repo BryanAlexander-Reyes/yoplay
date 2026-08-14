@@ -60,7 +60,5 @@ export const routes: Routes = [
     path: 'torneo',
     component: CreacionTorneos
   }
-
-
 ];
 
