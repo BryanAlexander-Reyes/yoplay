@@ -13,7 +13,6 @@ import { Tyc } from './pages/tyc/tyc';
 import { Layout } from './layout/layout/layout';
 import { authGuard } from './guards/auth-guard';
 // importaciones de Brayan Reyes
-import { LoginComponent } from './pages/usuario/login/login';
 // importaciones de Cristian Barrera
 import { CreacionTorneos } from './pages/organizacion/creacion-torneos/creacion-torneos';
 
